@@ -18,27 +18,27 @@
 
 ### Not escaping code examples
 
-*Incorrect*
+**Incorrect**
 ```
 /**
- * ```
+ * \```
  * {{some-component
  *     property1=myProperty
  * }}
- * ```
+ * \```
  */
 ```
 
 #VSLIDE
 
-*Correct*
+**Correct**
 ```
 /**
- * ```
+ * \```
  * \{{some-component
  *     property1=myProperty
  * }}
- * ```
+ * \```
  */
 ```
 
