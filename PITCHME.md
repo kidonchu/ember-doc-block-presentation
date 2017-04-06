@@ -21,11 +21,11 @@
 **Incorrect**
 ```
 /**
- * \```
+ * \`\`\`
  * {{some-component
  *     property1=myProperty
  * }}
- * \```
+ * \`\`\`
  */
 ```
 
@@ -34,11 +34,11 @@
 **Correct**
 ```
 /**
- * \```
+ * \`\`\`
  * \{{some-component
  *     property1=myProperty
  * }}
- * \```
+ * \`\`\`
  */
 ```
 
