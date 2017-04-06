@@ -2,32 +2,93 @@
 
 ---
 
-# Showtime
+## Showtime
+
+* Navigating to type definition
+* Navigating through method parameters
+* Dependent properties for computed properties and observers
+* Component usage with code example
+* crossLink helper to help navigate easily
 
 ---
 
-# Common mistakes
+## Common mistakes
 
 ---
 
-## Escaping Code Examples
+### Not escaping code examples
 
-### Incorrect
-```handlebars
-* {{some-component
-*
-* }}
+*Incorrect*
+```
+/**
+ * ```
+ * {{some-component
+ *     property1=myProperty
+ * }}
+ * ```
+ */
 ```
 
-### Correct
-```handlebars
-* \{{some-component
-*
-* }}
+#VSLIDE
+
+*Correct*
+```
+/**
+ * ```
+ * \{{some-component
+ *     property1=myProperty
+ * }}
+ * ```
+ */
 ```
 
 ---
 
-# What's next?
+### Not defining @class level docblock
 
+* You should define @class
+* If @property is defined but not @class, the property shows up as if it belongs
+to different @class
 
+---
+
+### Not having blank line between description and tag groups
+
+---
+
+### Incorrect type
+
+---
+
+### Mixing up @namespace and @class
+
+```
+/**
+ * @class Drawer/Item
+ * @namespace Component
+ * @extends Ember.Component
+ */
+```
+
+@TODO Show some examples of all cases
+
+---
+
+### Using tabs inside of doc block
+
+---
+
+### Please read through Examples page at least twice
+
+This page will likely have an example for a doc block you are trying to create.
+If it's missing, please let me know.
+
+---
+
+## Known issues
+
+---
+
+## Future improvement
+
+---
