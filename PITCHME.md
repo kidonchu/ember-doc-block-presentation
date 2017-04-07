@@ -297,4 +297,4 @@ helpDate: Ember.computed('when', function() {
 
 ---
 
-## Questions?
+### Questions?
