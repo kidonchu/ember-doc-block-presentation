@@ -97,7 +97,7 @@ to different @class.
 
 ---
 
-#### Quiz Time
+### Quiz Time
 
 #VSLIDE
 
@@ -147,7 +147,7 @@ to different @class.
 
 <dl>
 	<dt>Filename</dt>
-	<dd>app/components/ac-accordion/body/component.js</dd>
+	<dd>app/components/ac-autocomplete.js</dd>
 	<dt>File Content</dt>
 	<dd>export default Component.extend()</dd>
 </dl>
@@ -156,35 +156,35 @@ to different @class.
 
 <dl>
 	<dt>Filename</dt>
-	<dd>app/components/ac-accordion/body/component.js</dd>
+	<dd>app/components/ac-autocomplete.js</dd>
 	<dt>File Content</dt>
 	<dd>export default Component.extend()</dd>
 	<dt>Class</dt>
-	<dd>Body</dd>
+	<dd>AcAutocomplete</dd>
 	<dt>Namespace</dt>
-	<dd>Component.AcAccordion</dd>
+	<dd>Component</dd>
 </dl>
 
 #VSLIDE
 
 <dl>
 	<dt>Filename</dt>
-	<dd>app/addresses/delete-address-modal/component.js</dd>
+	<dd>app/contacts/edit/deal/stage-select/route.js</dd>
 	<dt>File Content</dt>
-	<dd>export default Component.extend()</dd>
+	<dd>export default Route.extend()</dd>
 </dl>
 
 #VSLIDE
 
 <dl>
 	<dt>Filename</dt>
-	<dd>app/addresses/delete-address-modal/component.js</dd>
+	<dd>app/contacts/edit/info/position/route.js</dd>
 	<dt>File Content</dt>
-	<dd>export default Component.extend()</dd>
+	<dd>export default Route.extend()</dd>
 	<dt>Class</dt>
-	<dd>DeleteAddressModal</dd>
+	<dd>Position</dd>
 	<dt>Namespace</dt>
-	<dd>Component.Addresses</dd>
+	<dd>Route.Contacts.Edit.Info</dd>
 </dl>
 
 ---
