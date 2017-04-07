@@ -4,7 +4,7 @@
 
 ### Goals
 
-* Convince you that doc blocks are useful
+* Convince you doc blocks are useful
 * Prevent from making mistakes
 
 ---
