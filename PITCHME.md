@@ -12,15 +12,6 @@
 
 ---
 
-### Easy to navigate
-
-**Old way**
-
-- Find substring `{{#ac-table` in project
-- Figure out what should be passed into the component
-
----
-
 ## Common mistakes
 
 ---
@@ -98,7 +89,7 @@ to different @class.
 
 ---
 
-### Mixing up @namespace and @class
+**Incorrect @namespace and @class**
 
 ```
 /**
@@ -115,6 +106,10 @@ to different @class.
 **No @public for bound properties**
 
 * If a property is bound to outer components, `@public` should be used.
+
+---
+
+### Any other mistakes you've seen?
 
 ---
 
