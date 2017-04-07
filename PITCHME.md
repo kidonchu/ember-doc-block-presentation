@@ -55,7 +55,7 @@ Escape handlebar examples with backslash
 
 ---
 
-### No blank line between description and tag groups
+No blank line after description
 
 ```
 /**
@@ -68,9 +68,8 @@ Escape handlebar examples with backslash
 
 #VSLIDE
 
-There should be a blank line between description and tag groups.
+Insert blank line after description
 
-**Correct**
 ```
 /**
  * Demonstrates doc blocks
@@ -83,11 +82,10 @@ There should be a blank line between description and tag groups.
 
 ---
 
-### Not defining @class level docblock
+No @class level doc block
 
-You should define @class if you are adding any primary tags to the file.
-
-If @property is defined but @class is not, the property shows up as if it belongs
+* You should define @class if you are adding any primary tags to the file.
+* If @property is defined but @class is not, the property shows up as if it belongs
 to different @class.
 
 ---
