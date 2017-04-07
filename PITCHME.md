@@ -12,33 +12,73 @@
 
 ---
 
+### Easy to navigate
+
+**Old way**
+
+- Find substring `{{#ac-table` in project
+- Figure out what should be passed into the component
+
+---
+
 ## Common mistakes
 
 ---
 
-### Not escaping code examples
+### Not escaping handlebar examples
 
 **Incorrect**
 ```
 /**
- * ``````
- * {{some-component
- *     property1=myProperty
- * }}
- * ``````
+ * {{#ember-doc-block.no-escape.wrong-way}}
+ *     Hello, I'm invisible
+ * {{/ember-doc-block.no-escape.wrong-way}}
+ *
+ * /{{#ember-doc-block.no-escape.wrong-way}}
+ *     Hello, I'm invisible
+ * {{/ember-doc-block.no-escape.wrong-way}}
  */
 ```
 
 #VSLIDE
 
+All handlebar examples should be escaped with backslash
+
 **Correct**
 ```
 /**
- * ``````
- * \{{some-component
- *     property1=myProperty
- * }}
- * ``````
+ * \{{#ember-doc-block.no-escape.right-way}}
+ *     Hello, I'm visible
+ * {{/ember-doc-block.no-escape.right-way}}
+ */
+```
+
+---
+
+### No blank line between description and tag groups
+
+**Incorrect**
+```
+/**
+ * Demonstrates doc blocks
+ * @class DocBlock
+ * @namespace Component
+ * @extends Ember.Component
+ */
+```
+
+#VSLIDE
+
+There should be a blank line between description and tag groups.
+
+**Correct**
+```
+/**
+ * Demonstrates doc blocks
+ *
+ * @class DocBlock
+ * @namespace Component
+ * @extends Ember.Component
  */
 ```
 
@@ -46,17 +86,14 @@
 
 ### Not defining @class level docblock
 
-* You should define @class
-* If @property is defined but not @class, the property shows up as if it belongs
-to different @class
+You should define @class if you are adding any primary tags to the file.
+
+If @property is defined but @class is not, the property shows up as if it belongs
+to different @class.
 
 ---
 
-### Not having blank line between description and tag groups
-
----
-
-### Incorrect type
+### Wrong type declaration
 
 ---
 
@@ -75,6 +112,13 @@ to different @class
 ---
 
 ### Using tabs inside of doc block
+
+---
+
+### Not specifying @public in components
+
+If a property is bound to outer components, @public tag should be used, for both
+properties and functions.
 
 ---
 
