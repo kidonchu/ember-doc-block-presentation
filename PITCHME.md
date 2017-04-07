@@ -11,6 +11,11 @@
 
 ### Showtime
 
+* Beautiful & consistent doc blocks
+* Component user guide
+* Controller query params reference guide (experimental)
+* Type reference and navigations
+
 ---
 
 ### Common mistakes
