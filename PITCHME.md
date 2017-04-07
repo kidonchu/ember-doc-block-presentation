@@ -95,6 +95,76 @@ to different @class.
 * @namespace: {class_type}.{directory_path}
 * @class: {file_name}. If generic filename, then {parent_directory}
 
+---
+
+#### Quiz Time
+
+#VSLIDE
+
+<dl>
+	<dt>Filename</dt>
+	<dd>app/services/heartbeat.js</dd>
+	<dt>File Content</dt>
+	<dd>export default Service.extend()</dd>
+</dl>
+
+#VSLIDE
+
+<dl>
+	<dt>Filename</dt>
+	<dd>app/services/heartbeat.js</dd>
+	<dt>File Content</dt>
+	<dd>export default Service.extend()</dd>
+	<dt>Class</dt>
+	<dd>Heartbeat</dd>
+	<dt>Namespace</dt>
+	<dd>Service</dd>
+</dl>
+
+#VSLIDE
+
+<dl>
+	<dt>Filename</dt>
+	<dd>app/models/contact/contact-log.js</dd>
+	<dt>File Content</dt>
+	<dd>export default DS.Model.extend()</dd>
+</dl>
+
+#VSLIDE
+
+<dl>
+	<dt>Filename</dt>
+	<dd>app/models/contact/contact-log.js</dd>
+	<dt>File Content</dt>
+	<dd>export default DS.Model.extend()</dd>
+	<dt>Class</dt>
+	<dd>ContactLog</dd>
+	<dt>Namespace</dt>
+	<dd>Model.Contact</dd>
+</dl>
+
+#VSLIDE
+
+<dl>
+	<dt>Filename</dt>
+	<dd>app/components/ac-accordion/body/component.js</dd>
+	<dt>File Content</dt>
+	<dd>export default Component.extend()</dd>
+</dl>
+
+#VSLIDE
+
+<dl>
+	<dt>Filename</dt>
+	<dd>app/components/ac-accordion/body/component.js</dd>
+	<dt>File Content</dt>
+	<dd>export default Component.extend()</dd>
+	<dt>Class</dt>
+	<dd>Body</dd>
+	<dt>Namespace</dt>
+	<dd>Component.AcAccordion</dd>
+</dl>
+
 #VSLIDE
 
 <dl>
