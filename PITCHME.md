@@ -220,6 +220,10 @@ to different @class.
 
 ---
 
+### Practice, Practice
+
+---
+
 **No @public for bound properties**
 
 * If a property is bound to outer components, `@public` should be used.
