@@ -1,8 +1,8 @@
-# Ember Doc Block
+## Ember Doc Block
 
 ---
 
-## Showtime
+### Showtime
 
 * Navigating to type definition
 * Navigating through method parameters
@@ -12,7 +12,7 @@
 
 ---
 
-## Common mistakes
+### Common mistakes
 
 ---
 
