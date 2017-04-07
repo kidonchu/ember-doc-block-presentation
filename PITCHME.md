@@ -147,7 +147,7 @@ to different @class.
 
 <dl>
 	<dt>Filename</dt>
-	<dd>app/components/ac-autocomplete.js</dd>
+	<dd>app/components/auto-complete.js</dd>
 	<dt>File Content</dt>
 	<dd>export default Component.extend()</dd>
 </dl>
@@ -156,11 +156,11 @@ to different @class.
 
 <dl>
 	<dt>Filename</dt>
-	<dd>app/components/ac-autocomplete.js</dd>
+	<dd>app/components/auto-complete.js</dd>
 	<dt>File Content</dt>
 	<dd>export default Component.extend()</dd>
 	<dt>Class</dt>
-	<dd>AcAutocomplete</dd>
+	<dd>AutoComplete</dd>
 	<dt>Namespace</dt>
 	<dd>Component</dd>
 </dl>
@@ -169,7 +169,7 @@ to different @class.
 
 <dl>
 	<dt>Filename</dt>
-	<dd>app/contacts/edit/deal/stage-select/route.js</dd>
+	<dd>app/contacts/edit/info/position/route.js</dd>
 	<dt>File Content</dt>
 	<dd>export default Route.extend()</dd>
 </dl>
