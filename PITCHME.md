@@ -91,15 +91,35 @@ to different @class.
 
 **Incorrect @namespace and @class**
 
-```
-/**
- * @class Drawer/Item
- * @namespace Component
- * @extends Ember.Component
- */
-```
+* UpperCamelCased
+* @namespace: <class_type>.<directory_path>
+* @class: <file_name>. If generic filename, then <parent_directory>
 
-@TODO Show some examples of all cases
+#VSLIDE
+
+### Quiz Time
+
+<dl>
+	<dt>File</dt>
+	<dd>
+	app/addresses/delete-address-modal/component.js
+	export default Component.extend()
+	</dd>
+</dl>
+
+#VSLIDE
+
+<dl>
+	<dt>File</dt>
+	<dd>
+	app/addresses/delete-address-modal/component.js
+	export default Component.extend()
+	</dd>
+	<dt>Class</dt>
+	<dd>DeleteAddressModal</dd>
+	<dt>Namespace</dt>
+	<dd>Component.Addresses</dd>
+</dl>
 
 ---
 
