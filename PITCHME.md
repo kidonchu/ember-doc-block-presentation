@@ -25,7 +25,7 @@
 
 ---
 
-#### Not escaping handlebar examples
+Not escaping handlebar examples
 
 ```
 /**
@@ -41,7 +41,7 @@
 
 #VSLIDE
 
-All handlebar examples should be escaped with backslash
+Handlebar examples should be escaped with backslash
 
 ```
 /**
