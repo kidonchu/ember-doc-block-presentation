@@ -87,6 +87,7 @@ to different @class.
 **Incorrect type definitions**
 
 * Try to be as specific as possible when defining the type.
+* Think of type as what you expect to get when you call `this.get('key')`
 
 ---
 
