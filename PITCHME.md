@@ -25,7 +25,7 @@
 
 ---
 
-**Not escaping handlebar examples**
+**No escaping for handlebar examples**
 
 ```
 /**
@@ -92,7 +92,9 @@ to different @class.
 
 ---
 
-### Wrong type declaration
+**Incorrect type definitions**
+
+* Try to be as specific as possible when defining the type.
 
 ---
 
@@ -110,28 +112,18 @@ to different @class.
 
 ---
 
-### Using tabs inside of doc block
+**No @public for bound properties**
+
+* If a property is bound to outer components, `@public` should be used.
 
 ---
 
-### Not specifying @public in components
+### Future improvement
 
-If a property is bound to outer components, @public tag should be used, for both
-properties and functions.
-
----
-
-### Please read through Examples page at least twice
-
-This page will likely have an example for a doc block you are trying to create.
-If it's missing, please let me know.
-
----
-
-## Known issues
-
----
-
-## Future improvement
+* Link to dependent properties
+* queryParams helper
+* Per file linting
+* @private properties that are not bound to outer components
+* More readable theme
 
 ---
