@@ -217,33 +217,33 @@ to different @class.
 what: '',
 
 /**
-	* Help date in unix timestamp
-	*
-	* @property when
-	* @type {Number}
-	* @default 0
-	* @public
-	*/
+ * Help date in unix timestamp
+ *
+ * @property when
+ * @type {Number}
+ * @default 0
+ * @public
+ */
 when: 0,
 
 /**
-	* What to do after done helping out
-	*
-	* @property afterHelp
-	* @type {Function}
-	* @default null
-	* @public
-	*/
+ * What to do after done helping out
+ *
+ * @property afterHelp
+ * @type {Function}
+ * @default null
+ * @public
+ */
 afterHelp: null,
 
 /**
-	* {{#dependentProperties}}
-	* when
-	* {{/dependentProperties}}
-	*
-	* @property helpDate
-	* @type {Date}
-	*/
+ * {{#dependentProperties}}
+ * when
+ * {{/dependentProperties}}
+ *
+ * @property helpDate
+ * @type {Date}
+ */
 helpDate: Ember.computed('when', function() {
 	return convertUnixTimestampToDate(this.get('when'));
 }),
