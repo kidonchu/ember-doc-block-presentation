@@ -5,3 +5,7 @@
 	margin-left: 0;
 	margin-right: 0;
 }
+
+.reveal .slides section>ul {
+	margin-left: 50px;
+}
