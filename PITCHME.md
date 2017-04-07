@@ -4,12 +4,6 @@
 
 ### Showtime
 
-* Navigating to type definition
-* Navigating through method parameters
-* Dependent properties for computed properties and observers
-* Component usage with code example
-* crossLink helper to help navigate easily
-
 ---
 
 ### Common mistakes
@@ -259,6 +253,7 @@ helpDate: Ember.computed('when', function() {
 
 * Link to dependent properties
 * queryParams helper
+* crossLink helper
 * Per file linting
 * @private properties that are not bound to outer components
 * More readable theme
