@@ -48,7 +48,7 @@
 
 ---
 
-**No blank line after description**
+**Missing blank line after description**
 
 ```
 /**
@@ -75,7 +75,7 @@
 
 ---
 
-**No @class level doc block**
+**Missing @class level doc block**
 
 * If @property is defined but @class is not, the property shows up as if it belongs
 to different @class.
@@ -92,29 +92,25 @@ to different @class.
 **Incorrect @namespace and @class**
 
 * UpperCamelCased
-* @namespace: <class_type>.<directory_path>
-* @class: <file_name>. If generic filename, then <parent_directory>
+* @namespace: {class_type}.{directory_path}
+* @class: {file_name}. If generic filename, then {parent_directory}
 
 #VSLIDE
 
-### Quiz Time
-
 <dl>
-	<dt>File</dt>
-	<dd>
-	app/addresses/delete-address-modal/component.js
-	export default Component.extend()
-	</dd>
+	<dt>Filename</dt>
+	<dd>app/addresses/delete-address-modal/component.js</dd>
+	<dt>File Content</dt>
+	<dd>export default Component.extend()</dd>
 </dl>
 
 #VSLIDE
 
 <dl>
-	<dt>File</dt>
-	<dd>
-	app/addresses/delete-address-modal/component.js
-	export default Component.extend()
-	</dd>
+	<dt>Filename</dt>
+	<dd>app/addresses/delete-address-modal/component.js</dd>
+	<dt>File Content</dt>
+	<dd>export default Component.extend()</dd>
 	<dt>Class</dt>
 	<dd>DeleteAddressModal</dd>
 	<dt>Namespace</dt>
