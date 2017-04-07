@@ -19,3 +19,7 @@
 .reveal pre {
 	width: 100%;
 }
+
+.reveal dd {
+	margin-bottom: 30px;
+}
