@@ -109,7 +109,7 @@ to different @class.
 
 ---
 
-### Any other mistakes you've seen?
+### Any other mistakes?
 
 ---
 
