@@ -41,12 +41,14 @@ Not escaping handlebar examples
 
 #VSLIDE
 
-Handlebar examples should be escaped with backslash
+Escape handlebar examples with backslash
 
 ```
 /**
  * \{{#ember-doc-block.no-escape.right-way}}
- *     Hello, I'm visible
+ *     \{{#ember-doc-block.no-escape.right-way.embedded}}
+ *         Hello, I'm visible
+ *     {{/ember-doc-block.no-escape.right-way.embedded}}
  * {{/ember-doc-block.no-escape.right-way}}
  */
 ```
