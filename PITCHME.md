@@ -2,6 +2,13 @@
 
 ---
 
+### Goals
+
+* Convince you that docblocks are useful
+* Prevent from making mistakes
+
+---
+
 ### Showtime
 
 ---
