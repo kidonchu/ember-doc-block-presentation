@@ -188,6 +188,29 @@ to different @class.
 	<dd>Route.Contacts.Edit.Info</dd>
 </dl>
 
+#VSLIDE
+
+<dl>
+	<dt>Filename</dt>
+	<dd>app/doc-block/query-params-example/controller.js</dd>
+	<dt>File Content</dt>
+	<dd>export default Controller.extend()</dd>
+</dl>
+
+#VSLIDE
+
+<dl>
+	<dt>Filename</dt>
+	<dd>app/doc-block/query-params-example/controller.js</dd>
+	<dt>File Content</dt>
+	<dd>export default Controller.extend()</dd>
+	<dt>Class</dt>
+	<dd>QueryParamsExample</dd>
+	<dt>Namespace</dt>
+	<dd>Controller.DocBlock</dd>
+</dl>
+
+
 ---
 
 **No @public for bound properties**
