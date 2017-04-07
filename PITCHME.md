@@ -296,3 +296,5 @@ helpDate: Ember.computed('when', function() {
 * More readable theme
 
 ---
+
+## Questions?
