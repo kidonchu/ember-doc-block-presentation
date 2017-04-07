@@ -193,6 +193,62 @@ to different @class.
 
 * If a property is bound to outer components, `@public` should be used.
 
+#VSLIDE
+
+```
+{{can-i-help-you
+	what='I want to make an order'
+	when=1491577341
+	afterHelp=(action 'hangup')
+}}
+```
+
+#VSLIDE
+
+```
+/**
+ * What the help is about
+ *
+ * @property what
+ * @type {String}
+ * @default ''
+ * @public
+ */
+what: '',
+
+/**
+	* Help date in unix timestamp
+	*
+	* @property when
+	* @type {Number}
+	* @default 0
+	* @public
+	*/
+when: 0,
+
+/**
+	* What to do after done helping out
+	*
+	* @property afterHelp
+	* @type {Function}
+	* @default null
+	* @public
+	*/
+afterHelp: null,
+
+/**
+	* {{#dependentProperties}}
+	* when
+	* {{/dependentProperties}}
+	*
+	* @property helpDate
+	* @type {Date}
+	*/
+helpDate: Ember.computed('when', function() {
+	return convertUnixTimestampToDate(this.get('when'));
+}),
+```
+
 ---
 
 ### Any other mistakes?
