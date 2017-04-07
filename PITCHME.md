@@ -25,9 +25,8 @@
 
 ---
 
-### Not escaping handlebar examples
+#### Not escaping handlebar examples
 
-**Incorrect**
 ```
 /**
  * {{#ember-doc-block.no-escape.wrong-way}}
@@ -44,7 +43,6 @@
 
 All handlebar examples should be escaped with backslash
 
-**Correct**
 ```
 /**
  * \{{#ember-doc-block.no-escape.right-way}}
@@ -57,7 +55,6 @@ All handlebar examples should be escaped with backslash
 
 ### No blank line between description and tag groups
 
-**Incorrect**
 ```
 /**
  * Demonstrates doc blocks
