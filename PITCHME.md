@@ -93,8 +93,8 @@ to different @class.
 **Incorrect @namespace and @class**
 
 * UpperCamelCased
-* @namespace: {class_type}.{directory_path}
 * @class: {file_name}. If generic filename, then {parent_directory}
+* @namespace: {class_type}[.directory_path...]
 
 ---
 
