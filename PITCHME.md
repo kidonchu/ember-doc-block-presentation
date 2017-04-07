@@ -22,7 +22,7 @@
 
 ---
 
-**No escaping for handlebar examples**
+**Not escaping for handlebar examples**
 
 ```
 /**
@@ -45,7 +45,7 @@
 ```
 /**
  * \{{#ember-doc-block.no-escape.right-way}}
- *     \{{#ember-doc-block.no-escape.right-way.embedded}}
+ *     {{#ember-doc-block.no-escape.right-way.embedded}}
  *         Hello, I'm visible
  *     {{/ember-doc-block.no-escape.right-way.embedded}}
  * {{/ember-doc-block.no-escape.right-way}}
@@ -81,22 +81,6 @@
 
 ---
 
-**Missing @class level doc block**
-
-* If @property is defined but @class is not, the property shows up as if it belongs
-to different @class.
-* @class should be defined if any primary tags are defined in the file.
-
----
-
-**Incorrect type definitions**
-
-* Try to be as specific as possible when defining the type.
-* Think of type as what you expect to get when you call
-  `this.get('your_property_name')`
-
----
-
 **Incorrect @namespace and @class**
 
 * UpperCamelCased
@@ -110,113 +94,129 @@ to different @class.
 #VSLIDE
 
 <dl>
-	<dt>Filename</dt>
-	<dd>app/services/heartbeat.js</dd>
-	<dt>File Content</dt>
-	<dd>export default Service.extend()</dd>
+<dt>Filename</dt>
+<dd>app/services/heartbeat.js</dd>
+<dt>File Content</dt>
+<dd>export default Service.extend()</dd>
 </dl>
 
 #VSLIDE
 
 <dl>
-	<dt>Filename</dt>
-	<dd>app/services/heartbeat.js</dd>
-	<dt>File Content</dt>
-	<dd>export default Service.extend()</dd>
-	<dt>Class</dt>
-	<dd>Heartbeat</dd>
-	<dt>Namespace</dt>
-	<dd>Service</dd>
+<dt>Filename</dt>
+<dd>app/services/heartbeat.js</dd>
+<dt>File Content</dt>
+<dd>export default Service.extend()</dd>
+<dt>Class</dt>
+<dd>Heartbeat</dd>
+<dt>Namespace</dt>
+<dd>Service</dd>
 </dl>
 
 #VSLIDE
 
 <dl>
-	<dt>Filename</dt>
-	<dd>app/models/contact/contact-log.js</dd>
-	<dt>File Content</dt>
-	<dd>export default DS.Model.extend()</dd>
+<dt>Filename</dt>
+<dd>app/models/contact/contact-log.js</dd>
+<dt>File Content</dt>
+<dd>export default DS.Model.extend()</dd>
 </dl>
 
 #VSLIDE
 
 <dl>
-	<dt>Filename</dt>
-	<dd>app/models/contact/contact-log.js</dd>
-	<dt>File Content</dt>
-	<dd>export default DS.Model.extend()</dd>
-	<dt>Class</dt>
-	<dd>ContactLog</dd>
-	<dt>Namespace</dt>
-	<dd>Model.Contact</dd>
+<dt>Filename</dt>
+<dd>app/models/contact/contact-log.js</dd>
+<dt>File Content</dt>
+<dd>export default DS.Model.extend()</dd>
+<dt>Class</dt>
+<dd>ContactLog</dd>
+<dt>Namespace</dt>
+<dd>Model.Contact</dd>
 </dl>
 
 #VSLIDE
 
 <dl>
-	<dt>Filename</dt>
-	<dd>app/components/auto-complete.js</dd>
-	<dt>File Content</dt>
-	<dd>export default Component.extend()</dd>
+<dt>Filename</dt>
+<dd>app/components/auto-complete.js</dd>
+<dt>File Content</dt>
+<dd>export default Component.extend()</dd>
 </dl>
 
 #VSLIDE
 
 <dl>
-	<dt>Filename</dt>
-	<dd>app/components/auto-complete.js</dd>
-	<dt>File Content</dt>
-	<dd>export default Component.extend()</dd>
-	<dt>Class</dt>
-	<dd>AutoComplete</dd>
-	<dt>Namespace</dt>
-	<dd>Component</dd>
+<dt>Filename</dt>
+<dd>app/components/auto-complete.js</dd>
+<dt>File Content</dt>
+<dd>export default Component.extend()</dd>
+<dt>Class</dt>
+<dd>AutoComplete</dd>
+<dt>Namespace</dt>
+<dd>Component</dd>
 </dl>
 
 #VSLIDE
 
 <dl>
-	<dt>Filename</dt>
-	<dd>app/contacts/edit/info/position/route.js</dd>
-	<dt>File Content</dt>
-	<dd>export default Route.extend()</dd>
+<dt>Filename</dt>
+<dd>app/contacts/edit/info/position/route.js</dd>
+<dt>File Content</dt>
+<dd>export default Route.extend()</dd>
 </dl>
 
 #VSLIDE
 
 <dl>
-	<dt>Filename</dt>
-	<dd>app/contacts/edit/info/position/route.js</dd>
-	<dt>File Content</dt>
-	<dd>export default Route.extend()</dd>
-	<dt>Class</dt>
-	<dd>Position</dd>
-	<dt>Namespace</dt>
-	<dd>Route.Contacts.Edit.Info</dd>
+<dt>Filename</dt>
+<dd>app/contacts/edit/info/position/route.js</dd>
+<dt>File Content</dt>
+<dd>export default Route.extend()</dd>
+<dt>Class</dt>
+<dd>Position</dd>
+<dt>Namespace</dt>
+<dd>Route.Contacts.Edit.Info</dd>
 </dl>
 
 #VSLIDE
 
 <dl>
-	<dt>Filename</dt>
-	<dd>app/doc-block/query-params-example/controller.js</dd>
-	<dt>File Content</dt>
-	<dd>export default Controller.extend()</dd>
+<dt>Filename</dt>
+<dd>app/doc-block/query-params-example/controller.js</dd>
+<dt>File Content</dt>
+<dd>export default Controller.extend()</dd>
 </dl>
 
 #VSLIDE
 
 <dl>
-	<dt>Filename</dt>
-	<dd>app/doc-block/query-params-example/controller.js</dd>
-	<dt>File Content</dt>
-	<dd>export default Controller.extend()</dd>
-	<dt>Class</dt>
-	<dd>QueryParamsExample</dd>
-	<dt>Namespace</dt>
-	<dd>Controller.DocBlock</dd>
+<dt>Filename</dt>
+<dd>app/doc-block/query-params-example/controller.js</dd>
+<dt>File Content</dt>
+<dd>export default Controller.extend()</dd>
+<dt>Class</dt>
+<dd>QueryParamsExample</dd>
+<dt>Namespace</dt>
+<dd>Controller.DocBlock</dd>
 </dl>
 
+
+---
+
+**Missing @class level doc block**
+
+* If @property is defined but @class is not, the property shows up as if it belongs
+to different @class.
+* @class should be defined if any primary tags are defined in the file.
+
+---
+
+**Incorrect type definitions**
+
+* Try to be as specific as possible when defining the type.
+* Think of type as what you expect to get when you call
+  `this.get('your_property_name')`
 
 ---
 
