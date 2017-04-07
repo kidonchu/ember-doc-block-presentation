@@ -261,7 +261,7 @@ when: 0,
  * What to do after done helping out
  *
  * @property afterHelp
- * @type {Function}
+ * @type {Action}
  * @default null
  * @public
  */
