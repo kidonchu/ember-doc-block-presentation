@@ -29,10 +29,12 @@
 
 ```
 /**
+ * No escape character:
  * {{#ember-doc-block.no-escape.wrong-way}}
  *     Hello, I'm invisible
  * {{/ember-doc-block.no-escape.wrong-way}}
  *
+ * Wrong escape character:
  * /{{#ember-doc-block.no-escape.wrong-way}}
  *     Hello, I'm invisible
  * {{/ember-doc-block.no-escape.wrong-way}}
