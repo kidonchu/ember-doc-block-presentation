@@ -25,7 +25,7 @@
 
 ---
 
-Not escaping handlebar examples
+**Not escaping handlebar examples**
 
 ```
 /**
@@ -41,7 +41,7 @@ Not escaping handlebar examples
 
 #VSLIDE
 
-Escape handlebar examples with backslash
+**Escape handlebar examples with backslash**
 
 ```
 /**
@@ -55,7 +55,7 @@ Escape handlebar examples with backslash
 
 ---
 
-No blank line after description
+**No blank line after description**
 
 ```
 /**
@@ -68,7 +68,7 @@ No blank line after description
 
 #VSLIDE
 
-Insert blank line after description
+**Insert blank line after description**
 
 ```
 /**
@@ -82,11 +82,11 @@ Insert blank line after description
 
 ---
 
-No @class level doc block
+**No @class level doc block**
 
-* You should define @class if you are adding any primary tags to the file.
 * If @property is defined but @class is not, the property shows up as if it belongs
 to different @class.
+* @class should be defined if any primary tags are defined in the file.
 
 ---
 
